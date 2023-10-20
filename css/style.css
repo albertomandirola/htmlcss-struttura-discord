@@ -19,6 +19,7 @@ header{
     width: 70%;
     height: 80%;
     background-color: blue;
+    border: 1px black dashed;
 }
 /* MAIN */
 .container{
@@ -34,18 +35,40 @@ header{
     height: 90%;
     background-color: green;
     display: flex;
+    border: 1px black dashed;
 }
 .col-40{
     width: 40%;
     background-color: pink;
+    border: 1px black dashed;
 }
 .col-60{
     width: 60%;
     background-color: lightblue;
+    border: 1px black dashed;
 }
 .bg-grey{
     background-color: lightgray;
 }
 .max{
     height: 1000px;
+}
+/* footer */
+.bg-darkgrey{
+    background-color: rgb(63, 63, 63);
+}
+.col-30{
+    width: 30%;
+    background-color: maroon;
+    border: 1px black dashed;
+}
+.col-70{
+    width: 70%;
+    background-color: pink;
+    display: flex;
+}
+.col-25{
+    width: 25%;
+    background-color: rgb(0, 255, 170);
+    border: 1px black dashed;
 }
